@@ -17,7 +17,7 @@
 				{% for device in devices %}
 				<div class="leaderboard-row leaderboard-row-{{ 'a' if loop.index % 2 == 0 else 'b' }}">
 					<span class="leaderboard-left">{{ loop.index }}. {{ device['_id'] }}</span>
-					<span class="leaderboard-right">{{ device['total'] }}
+					<span class="leaderboard-right">{{ device['total'] }}</span>
 				</div>
 				{% endfor %}
 			</div>
